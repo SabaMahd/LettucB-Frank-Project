@@ -1,0 +1,31 @@
+{
+  "name": "lettuce-b-frank",
+  "version": "1.0.0",
+  "description": "Restaurant reservation app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynogriffin/lettuce-b-frank.git"
+  },
+  "author": "Cody Griffin, Abe Mozahem, Amy Rodriguez, Saba Mahd, Tedd Hauser JR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cynogriffin/lettuce-b-frank/issues"
+  },
+  "homepage": "https://github.com/cynogriffin/lettuce-b-frank#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0",
+    "validator": "^13.7.0"
+  }
+}
