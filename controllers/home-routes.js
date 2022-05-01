@@ -18,6 +18,5 @@ router.get('/reservations', (req, res) => {
 });
 module.exports = router;
 
-router.get('/model', (req, res) => {
-    res.render('model');
-});
+
+
